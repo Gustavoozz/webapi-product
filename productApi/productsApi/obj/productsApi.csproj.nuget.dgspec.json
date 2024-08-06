@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\53844614893\\Desktop\\productApi\\productsApi\\productsApi.csproj": {}
+    "C:\\Users\\53844614893\\Desktop\\‎\\webapi-product\\productApi\\productsApi\\productsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\53844614893\\Desktop\\productApi\\productsApi\\productsApi.csproj": {
+    "C:\\Users\\53844614893\\Desktop\\‎\\webapi-product\\productApi\\productsApi\\productsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\53844614893\\Desktop\\productApi\\productsApi\\productsApi.csproj",
+        "projectUniqueName": "C:\\Users\\53844614893\\Desktop\\‎\\webapi-product\\productApi\\productsApi\\productsApi.csproj",
         "projectName": "productsApi",
-        "projectPath": "C:\\Users\\53844614893\\Desktop\\productApi\\productsApi\\productsApi.csproj",
+        "projectPath": "C:\\Users\\53844614893\\Desktop\\‎\\webapi-product\\productApi\\productsApi\\productsApi.csproj",
         "packagesPath": "C:\\Users\\53844614893\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\53844614893\\Desktop\\productApi\\productsApi\\obj\\",
+        "outputPath": "C:\\Users\\53844614893\\Desktop\\‎\\webapi-product\\productApi\\productsApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\53844614893\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,6 +69,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

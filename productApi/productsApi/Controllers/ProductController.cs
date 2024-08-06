@@ -12,11 +12,11 @@ namespace productsApi.Controllers
     [Produces("application/json")]
     public class ProductController : ControllerBase
     {
-        private readonly IProductRepository? _productRepository;
+        private  IProductRepository? _productRepository;
 
-        public ProductController()
+        public ProductController(IProductRepository product)
         {
-            _productRepository = new ProductRepository();
+            _productRepository = product;
         }
 
         [HttpGet("GetAll")]
